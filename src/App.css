@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  color: #651616;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+h2 {
+  margin: 25px 0 15px;
+  color: #334155;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #16a34a;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  background: #801515;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background: #651616;
+  color: white;
+  text-align: left;
+}
+
+th, td {
+  padding: 13px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tr:hover {
+  background: #f8fafc;
+}
+
+@media (max-width: 650px) {
+  .contenedor {
+    width: 96%;
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  table {
+    min-width: 600px;
+  }
+
+  .tabla-contenedor {
+    overflow-x: auto;
+  }
+}
